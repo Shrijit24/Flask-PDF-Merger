@@ -4,20 +4,18 @@
     <title>PDF Merger</title>
 </head>
 <body>
-
-<h2>PDF Merger</h2>
-
-<p><b>Tip:</b> Rename your files in order before uploading.<br>
-Example: <b>01.pdf, 02.pdf, 03.pdf</b></p>
-
-<form action="/merge" method="post" enctype="multipart/form-data">
-    <p>Select files (select files in order to be merged):</p>
-    <input type="file" name="pdffiles" multiple>
-    <br><br>
-    <button type="submit">Merge</button>
-</form>
-
+    <h2>PDF Merger</h2>
+    <p>Enter how many PDF files you want to merge:</p>
+    <form method="post">
+        <input type="number" name="num_files" min="1">
+        <button type="submit">Next</button>
+    </form>
 </body>
 </html>
+
+
+
+
+
 
 
