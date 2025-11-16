@@ -28,7 +28,7 @@ In today’s digital world, managing multiple PDF files efficiently is a common 
 1. Install Python (if not already installed).  
 2. Open a terminal/command prompt.  
 3. Install dependencies:
-4. Place the project folder anywhere on your system.  
+4. Place the project folder (containing app.py,index.html,upload.html files) anywhere on your system.  
 5. Open the project folder in the terminal and run:
 6. Open your browser and go to: http://127.0.0.1:5000/
 7. use the interface to upload and merge PDF files.  
