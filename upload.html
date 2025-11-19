@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload PDFs</title>
+</head>
+<body>
+    <h2>Upload PDF Files</h2>
+    <p>Select your PDF files (In order to be merged):</p>
+    <form method="post" enctype="multipart/form-data" action="/merge">
+        {{inputs}}
+        <input type="hidden" name="num_files" value="{{num}}">
+        <button type="submit">Merge PDFs</button>
+    </form>
+</body>
+</html>
