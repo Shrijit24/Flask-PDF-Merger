@@ -41,7 +41,7 @@ In today’s digital world, managing multiple PDF files efficiently is a common 
 - Minimalistic and easy-to-use interface.  
 - Fully functional without JavaScript or additional software.
 
-Live Demo: https://flask-pdf-merger-2wuu.onrender.com
+Live Demo: https://flask-pdf-merger-rgdb.onrender.com/
 
 
 
